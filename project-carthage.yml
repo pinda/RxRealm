@@ -114,11 +114,11 @@ targets:
     sources:
       - Sources/RxRealm
     dependencies:
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
   RxRealm macOS:
     settings:
       PRODUCT_NAME: RxRealm
@@ -130,11 +130,11 @@ targets:
     sources:
       - Sources/RxRealm
     dependencies:
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
   RxRealm tvOS:
     settings:
       PRODUCT_NAME: RxRealm
@@ -146,11 +146,11 @@ targets:
     sources:
       - Sources/RxRealm
     dependencies:
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
   RxRealm watchOS:
     settings:
       PRODUCT_NAME: RxRealm
@@ -162,11 +162,11 @@ targets:
     sources:
       - Sources/RxRealm
     dependencies:
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
   RxRealmTests iOS:
     platform: iOS
     type: bundle.unit-test
@@ -174,13 +174,13 @@ targets:
       - path: Tests/RxRealmTests
     dependencies:
       - target: RxRealm iOS
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxBlocking.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxTest.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxBlocking.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxTest.xcframework"
   RxRealmTests macOS:
     platform: macOS
     type: bundle.unit-test
@@ -190,13 +190,13 @@ targets:
       - path: Tests/RxRealmTests
     dependencies:
       - target: RxRealm macOS
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxBlocking.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxTest.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxBlocking.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxTest.xcframework"
   RxRealmTests tvOS:
     platform: tvOS
     type: bundle.unit-test
@@ -204,11 +204,11 @@ targets:
       - path: Tests/RxRealmTests
     dependencies:
       - target: RxRealm tvOS
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxBlocking.xcframework"
-      - framework: "$(PROJECT_DIR)/../../Carthage/Build/RxTest.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxBlocking.xcframework"
+      - framework: "$(PROJECT_DIR)/Carthage/Build/RxTest.xcframework"
 

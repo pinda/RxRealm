@@ -198,7 +198,7 @@
 
 /* Begin PBXFileReference section */
 		074CDA1C713713A27B9CE010 /* RxRealmResultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmResultsTests.swift; sourceTree = "<group>"; };
-		0CC8C1C0480514FD36CB4857 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RxTest.xcframework"; sourceTree = "<group>"; };
+		0CC8C1C0480514FD36CB4857 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RxTest.xcframework"; sourceTree = "<group>"; };
 		105F0474E240FC18ED7BFA43 /* RxRealmObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmObjectTests.swift; sourceTree = "<group>"; };
 		1E9D31CAD96293BBD551853D /* RxRealmTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxRealmTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3469BA8F081888D6C6C8A7A4 /* RxRealmWriteSinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmWriteSinks.swift; sourceTree = "<group>"; };
@@ -209,19 +209,19 @@
 		5352F3EA9B5B1B2F2AB2CD16 /* RxRealmRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmRealmTests.swift; sourceTree = "<group>"; };
 		59F1E84CC1311FAB693691CC /* RxRealm tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4369E78C4C2B69CE690530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7B5183B5E529CA777C1FF46F /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RealmSwift.xcframework"; sourceTree = "<group>"; };
-		7EBBA13B05B9699529F5A20D /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RxCocoa.xcframework"; sourceTree = "<group>"; };
-		8E5AA0049437EF4DF74DC9D7 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RxBlocking.xcframework"; sourceTree = "<group>"; };
+		7B5183B5E529CA777C1FF46F /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RealmSwift.xcframework"; sourceTree = "<group>"; };
+		7EBBA13B05B9699529F5A20D /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RxCocoa.xcframework"; sourceTree = "<group>"; };
+		8E5AA0049437EF4DF74DC9D7 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RxBlocking.xcframework"; sourceTree = "<group>"; };
 		91CF303357AEEDF796561E80 /* RxRealmListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmListTests.swift; sourceTree = "<group>"; };
-		9477EDA556D704A21C63D103 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RxRelay.xcframework"; sourceTree = "<group>"; };
+		9477EDA556D704A21C63D103 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RxRelay.xcframework"; sourceTree = "<group>"; };
 		979D95CF33890213FF881AF6 /* RxRealm watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED1C8A1F1D1791A314475DB /* RxRealm iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5F4C305A026E0F81C30B7CA /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/RxSwift.xcframework"; sourceTree = "<group>"; };
+		A5F4C305A026E0F81C30B7CA /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework"; sourceTree = "<group>"; };
 		A8C40BC367CFEDAE224E5BDB /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		AADDB130812A09365006A56D /* RxRealmTests tvOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxRealmTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CAD73B2AC3082042C5893C /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
 		BA9AA258335B7EBC842E5168 /* RxRealm macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE241848EE8EBF4155EB0B7A /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "$(PROJECT_DIR)/../../Carthage/Build/Realm.xcframework"; sourceTree = "<group>"; };
+		BE241848EE8EBF4155EB0B7A /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "$(PROJECT_DIR)/Carthage/Build/Realm.xcframework"; sourceTree = "<group>"; };
 		C8C6D39A28B108660E1C9E2E /* RxRealmOnQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmOnQueueTests.swift; sourceTree = "<group>"; };
 		F02C1232E98B56F6662D4553 /* RxRealmTests iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxRealmTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -734,7 +734,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -760,7 +760,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -788,7 +788,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -812,7 +812,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -837,7 +837,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -861,7 +861,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -884,7 +884,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -971,7 +971,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -990,7 +990,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1008,7 +1008,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1026,7 +1026,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1050,7 +1050,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1079,7 +1079,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				INFOPLIST_FILE = Sources/RxRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1105,7 +1105,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/../../Carthage/Build\"",
+					"\"$(PROJECT_DIR)/Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
